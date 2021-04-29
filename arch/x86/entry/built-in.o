@@ -1,0 +1,20 @@
+!<thin>
+//                                              160       `
+entry_64.o/
+thunk_64.o/
+syscall_64.o/
+common.o/
+vdso/vma.o/
+vdso/vdso-image-64.o/
+vsyscall/vsyscall_gtod.o/
+vsyscall/vsyscall_64.o/
+vsyscall/vsyscall_emu_64.o/
+/0              0           0     0     644     20472     `
+/12             0           0     0     644     656       `
+/24             0           0     0     644     70936     `
+/38             0           0     0     644     199584    `
+/48             0           0     0     644     183256    `
+/60             0           0     0     644     44288     `
+/82             0           0     0     644     54776     `
+/108            0           0     0     644     206728    `
+/132            0           0     0     644     10224     `

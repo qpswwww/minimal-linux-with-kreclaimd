@@ -1,0 +1,1 @@
+cmd_arch/x86/built-in.o :=  rm -f arch/x86/built-in.o; ar rcSTPD arch/x86/built-in.o arch/x86/entry/built-in.o arch/x86/events/built-in.o arch/x86/realmode/built-in.o arch/x86/kernel/built-in.o arch/x86/mm/built-in.o 

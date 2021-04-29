@@ -1,0 +1,119 @@
+!<thin>
+//                                              1060      `
+video/console/dummycon.o/
+tty/tty_io.o/
+tty/n_tty.o/
+tty/tty_ioctl.o/
+tty/tty_ldisc.o/
+tty/tty_buffer.o/
+tty/tty_port.o/
+tty/tty_mutex.o/
+tty/tty_ldsem.o/
+tty/tty_baudrate.o/
+tty/tty_jobctrl.o/
+tty/n_null.o/
+tty/pty.o/
+tty/vt/vt_ioctl.o/
+tty/vt/vc_screen.o/
+tty/vt/selection.o/
+tty/vt/keyboard.o/
+tty/vt/consolemap.o/
+tty/vt/consolemap_deftbl.o/
+tty/vt/vt.o/
+tty/vt/defkeymap.o/
+tty/serial/serial_core.o/
+tty/serial/earlycon.o/
+tty/serial/8250/8250_core.o/
+tty/serial/8250/8250_port.o/
+tty/serial/8250/8250_early.o/
+char/mem.o/
+char/random.o/
+char/misc.o/
+base/component.o/
+base/core.o/
+base/bus.o/
+base/dd.o/
+base/syscore.o/
+base/driver.o/
+base/class.o/
+base/platform.o/
+base/cpu.o/
+base/firmware.o/
+base/init.o/
+base/map.o/
+base/devres.o/
+base/attribute_container.o/
+base/transport_class.o/
+base/topology.o/
+base/container.o/
+base/property.o/
+base/cacheinfo.o/
+base/dma-mapping.o/
+input/serio/serio.o/
+input/serio/serport.o/
+input/input.o/
+input/input-compat.o/
+input/input-mt.o/
+input/ff-core.o/
+rtc/rtc-lib.o/
+rtc/rtc-mc146818-lib.o/
+clocksource/i8253.o/
+
+/0              0           0     0     644     162104    `
+/26             0           0     0     644     380200    `
+/40             0           0     0     644     323736    `
+/53             0           0     0     644     191152    `
+/70             0           0     0     644     200440    `
+/87             0           0     0     644     166624    `
+/105            0           0     0     644     186064    `
+/121            0           0     0     644     137744    `
+/138            0           0     0     644     155968    `
+/155            0           0     0     644     133168    `
+/175            0           0     0     644     174408    `
+/194            0           0     0     644     138016    `
+/208            0           0     0     644     232232    `
+/219            0           0     0     644     262776    `
+/238            0           0     0     644     212528    `
+/258            0           0     0     644     190184    `
+/278            0           0     0     644     354736    `
+/297            0           0     0     644     205880    `
+/318            0           0     0     644     4320      `
+/346            0           0     0     644     434488    `
+/359            0           0     0     644     36080     `
+/379            0           0     0     644     396312    `
+/405            0           0     0     644     172752    `
+/428            0           0     0     644     253496    `
+/457            0           0     0     644     328336    `
+/486            0           0     0     644     167216    `
+/516            0           0     0     644     193408    `
+/528            0           0     0     644     299048    `
+/543            0           0     0     644     151032    `
+/556            0           0     0     644     122368    `
+/574            0           0     0     644     460064    `
+/587            0           0     0     644     192864    `
+/599            0           0     0     644     211072    `
+/610            0           0     0     644     196712    `
+/626            0           0     0     644     96016     `
+/641            0           0     0     644     135504    `
+/655            0           0     0     644     245840    `
+/672            0           0     0     644     124472    `
+/684            0           0     0     644     89928     `
+/701            0           0     0     644     77360     `
+/714            0           0     0     644     62832     `
+/726            0           0     0     644     153112    `
+/741            0           0     0     644     117296    `
+/769            0           0     0     644     84000     `
+/793            0           0     0     644     165264    `
+/810            0           0     0     644     81184     `
+/828            0           0     0     644     287128    `
+/845            0           0     0     644     130752    `
+/863            0           0     0     644     181984    `
+/883            0           0     0     644     200624    `
+/904            0           0     0     644     171064    `
+/927            0           0     0     644     331088    `
+/942            0           0     0     644     122424    `
+/964            0           0     0     644     147048    `
+/982            0           0     0     644     146064    `
+/999            0           0     0     644     136360    `
+/1014           0           0     0     644     137760    `
+/1038           0           0     0     644     69160     `

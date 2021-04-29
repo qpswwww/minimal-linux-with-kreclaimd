@@ -1,0 +1,1 @@
+cmd_arch/x86/entry/built-in.o :=  rm -f arch/x86/entry/built-in.o; ar rcSTPD arch/x86/entry/built-in.o arch/x86/entry/entry_64.o arch/x86/entry/thunk_64.o arch/x86/entry/syscall_64.o arch/x86/entry/common.o arch/x86/entry/vdso/built-in.o arch/x86/entry/vsyscall/built-in.o 

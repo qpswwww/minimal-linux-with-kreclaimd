@@ -1,2 +1,2 @@
-# minimal-linux-with-kreclaimd
-Minimal Linux Kernel with kreclaimd Kernel Module
+# minimal_linux_with_proactive_cold_page_reclaim
+A minimal Linux which supports cold page identification and proactive reclaimation.

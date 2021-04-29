@@ -1,0 +1,1 @@
+cmd_drivers/built-in.o :=  rm -f drivers/built-in.o; ar rcSTPD drivers/built-in.o drivers/video/built-in.o drivers/tty/built-in.o drivers/char/built-in.o drivers/base/built-in.o drivers/input/serio/built-in.o drivers/input/built-in.o drivers/rtc/built-in.o drivers/clocksource/built-in.o 
