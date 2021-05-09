@@ -89,12 +89,6 @@ static ssize_t kreclaimd_write(struct file *filp, const char __user * buffer, si
 		cache_enabled_unmap=tmp_cache_enabled_unmap;
 		printk(KERN_INFO "KRECLAIMD: new params have been saved: %d %d %d", scan_period_ms,cache_reclaim_age_threshold,cache_enabled_unmap);
     }
-	/*
-	printk(KERN_INFO "msg has been set to %s", msg);
-    printk(KERN_INFO "Message is: ");
-    for (i=0; i < count; i++) {
-        printk(KERN_INFO "\n Index: %d . Character: %c", i, msg[i]);
-    }*/
 
     *pos = (int) count;
     len = count-1;
@@ -206,7 +200,7 @@ static int __init kreclaimd_init(void)
 	kreclaimd_stat_file = proc_create(FILENAME_STAT,0440,NULL,&kreclaimd_stat_ops);//create proc file
     if(kreclaimd_stat_file == NULL) //deal with error
         return -ENOMEM;
-	//kreclaimd_param_file=proc_create(FILENAME_PARAM,0660,NULL,&kreclaimd_param_ops);
+	kreclaimd_param_file=proc_create(FILENAME_PARAM,0660,NULL,&kreclaimd_param_ops);
 	create_new_proc_entry();
 	int nid, ret;
 
